@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body{
+background:linear-gradient(268.44deg, #004E64 42.58%, #1B8171 94.41%);
+font-family: "Nunito";
+}
+.navbar{
+    padding:15px;
+    border-bottom: 0.2px solid #7AE582;
+
+}
+.navbar-brand{
+    color: #7AE582;
+    padding-left: 50px;
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    color:#9FFFCB;
+    text-shadow: -1px -1px 2px rgba(122,229,130,0.75);
+}
+
+.nav-link{
+    color:#25A18E;
+}
+
+.nav-item{
+    padding-right: 20px;
+    font-family: "Nunito";
+}
+#portimg{
+    box-shadow: 0px 0px 12px rgba(122,229,130,0.75);
+    border: 1px solid rgba(122,229,130,0.75);
+    width: 250px;
+    margin-left: 50px;
+}
+
+#name h1{
+    text-shadow: 0px 0px 3px rgba(122,229,130,0.75);
+    font-size:32px;
+    color:#7AE582;
+}
+#name p{
+    padding-left: 15px;
+    font-size:20px;
+    color:#9FFFCB;
+}
+#name img{
+    margin-left:20px;
+    width:40px;
+}
+#aboutme h5{
+    color:#7AE582;
+    text-decoration: underline;
+    text-shadow: 1px 1px 3px rgba(122,229,130,0.25);
+}
+#aboutme p{
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 5px;
+    color:#7AE582;
+    border: 1px solid #7AE582;
+}
+#row2{
+   
+    border-bottom: 0.2px solid #7AE582;
+    margin-top: 45px;
+    padding-top: 15px;
+}
+#row2 h5{
+    margin-left:50px;
+    color:#7AE582;
+    text-shadow: 1px 1px 3px rgba(122,229,130,0.25);
+}
+#projects{
+    padding-top: 30px;
+    margin-bottom:30px;
+    border-top: 0.2px solid #7AE582;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#projects a{
+    text-decoration: none;
+    color: #7AE582;
+    transition: 0.4s;
+}
+#projects a:hover{
+    color: #7AE582;
+    text-shadow: 0px 0px 2px rgba(122,229,130,1);
+}
+#projects img{
+    border: 1px solid #7AE582;
+    box-shadow: 0px 0px 2px rgba(122,229,130,1);
+    margin-bottom:5px;
+    width:200px;
+    transition: 0.4s;
+}
+#projects img:hover{filter: brightness(120%);}
+
+#row3{
+    padding-left:50px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+#row3 h5{
+    color:#7AE582;
+    text-shadow: 1px 1px 3px rgba(122,229,130,0.25);
+}
+#row3 p{
+    padding-left: 30px;
+    color:#9FFFCB;
+}
+
+#row3 a{
+    text-decoration: none;
+    color: #7AE582;
+    transition: 0.4s;
+}
+#row3 a:hover{
+    text-shadow: 0px 0px 2px rgba(122,229,130,1);
+}
+
+
+footer{
+    padding-top:15px;
+    margin-top: 50px;
+    text-align:center;
+    color:#1B8171;
+}
